@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="468px" height="539px" viewBox="0 0 468 539" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(15.000000, 15.000000)">
+            <path d="M80.8783978,311 L80.8783978,121 L55.8562076,121 L217.499556,0 L379.142905,121 L356.12249,121 L356.12249,311 L436,311 C424.494645,421.139972 331.283065,507 218,507 C104.716935,507 11.5053546,421.139972 0,311 L80.8783978,311 Z M142.933429,131 L142.933429,348 C142.933429,374.509668 164.423761,396 190.933429,396 L246.067458,396 C272.577126,396 294.067458,374.509668 294.067458,348 L294.067458,131 L142.933429,131 Z" id="Combined-Shape" fill="#3B699F"></path>
+            <polygon id="Rectangle-3" fill="#3B699F" points="162 250 276 250 276 311 162 311"></polygon>
+            <polygon id="Polygon" fill="#FFFFFF" points="219 61 291 84.2999267 263.498447 122 174.501553 122 147 84.2999267"></polygon>
+        </g>
+    </g>
+</svg>
