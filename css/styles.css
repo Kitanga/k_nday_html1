@@ -86,9 +86,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    /* color: #818181; */
-    background-color: ivory;
-    color: #181818;
+    color: #818181;
+    /* background-color: ivory;
+    color: #181818; */
 }
 
 header #cta-banner {
