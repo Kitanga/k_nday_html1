@@ -37,13 +37,15 @@ header {
     height: 100%;
     color: ivory;
     /* background-color: rgba(0, 0, 0, 0.7); */
-    background-image: url("../img/arusha-crown-hotel-11-dark2.jpg");
+    background-image: url("../img/arusha-crown-hotel-11-dark.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     /* display: flex; */
 }
 
 header nav {
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
@@ -58,19 +60,27 @@ header nav:after {
     clear: both;
 }
 
-header nav img {
+header nav a {
     width: 3.4%;
     height: auto;
-    fill: black;
     margin-top: .7em;
     float: left;
+}
+
+header nav a img {
+    width: 100%;
+    height: auto;
 }
 
 header nav ul {
     width: 92%;
     height: 100%;
+    display: flex;
     list-style-type: none;
     float: right;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
 }
 
 header nav ul li {
@@ -98,8 +108,12 @@ header #cta-banner {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* text-shadow: 0 3px black; */
-    kerning: 1;
+    padding-top: 10%;
+}
+
+header #cta-banner > div {
+    width: 43%;
+    height: 43%;
 }
 
 header #cta-banner h1 {
@@ -119,14 +133,52 @@ header #cta-banner h2 span {
     text-decoration: underline;
 }
 
+header #cta-banner h3 {
+    margin-bottom: 7px;
+}
+
 header #cta-banner a {
     font-family: 'Roboto Slab', serif;
     width: 17%;
+    display: block;
     border: 1px solid ivory;
     border-radius: 4px;
     margin: 0 auto;
     padding: 17px;
     transition: all .4s;
+    position: relative;
+    bottom: -17%;
+}
+
+header #cta-banner #mouse {
+    width: 34px;
+    height: 61px;
+    border: 3px solid ivory;
+    border-radius: 17px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -61%;
+}
+
+header #cta-banner #mouse div {
+    width: 3px;
+    height: 7px;
+    background-color: ivory;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    opacity: 0;
+    animation: wheelscroll .7s ease-out infinite;
+}
+
+@keyframes wheelscroll {
+    4% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(25px);
+        opacity: 0;
+    }
 }
 
 header #cta-banner a:hover {
