@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <title>Arusha Crown Hotel</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+    <div id="to-top"></div>
     <header>
         <nav>
-            <img src="img/logo-full-transparent.svg" alt="Arusha Crown Hotel logo in white and a transparent background.">
+            <a href="#">
+                <img src="img/logo-full-transparent.svg" alt="Arusha Crown Hotel logo in white and a transparent background.">
+            </a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Accormodation</a></li>
-                <li><a href="#">Picture Gallery</a></li>
-                <li><a href="#">Attractions</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Accomodation</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Attractions</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </ul>
         </nav>
         <div id="cta-banner">
-            <h1>Arusha Crown Hotel</h1>
-            <h3>A <span>Class</span> above, yet a affordable</h3>
-            <a href="#" id="cta-btn">Book</a>
+            <div>
+                <h1>Arusha Crown Hotel</h1>
+                <h2>A <span>class</span> above, yet a <span>affordable</span></h2>
+                <h3>Book your room</h3>
+                <a href="#" id="cta-btn">Book</a>
+            </div>
         </div>
     </header>
-    <main>
-        stuff
-    </main>
+    <main></main>
     <footer>
-            Copyright&copy; Arusha Crown Hotel, 2004-<span id="year"></span>. All rights reserved.
+        Copyright&copy; Arusha Crown Hotel, 2004-
+        <span id="year"></span>. All rights reserved.
+        <a href="#to-top" class="smoothScrollable">To Top</a>
     </footer>
     <script>
         document.getElementById('year').innerText = (new Date()).getFullYear();
     </script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
