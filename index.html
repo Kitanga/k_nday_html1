@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="loading">
     <div id="to-top"></div>
     <header class="bg-dark">
         <nav>
@@ -55,23 +55,30 @@
                 </h2>
                 <h3>Book your room</h3>
                 <a href="#" id="cta-btn">NOW!</a>
-                <div id="mouse">
-                    <div id="wheel"></div>
-                </div>
+
             </div>
+        </div>
+        <div id="mouse">
+            <div id="wheel"></div>
         </div>
     </header>
     <main></main>
     <footer>
         Copyright&copy; Arusha Crown Hotel, 2004-
         <span id="year"></span>. All rights reserved.
-        <a href="#to-top" class="smoothScrollable">To Top</a>
     </footer>
     <div id="loader" class="bg-dark">
         <div id="spinner"></div>
     </div>
     <script>
+        // Add the current year in legal text in footer
         document.getElementById('year').innerText = (new Date()).getFullYear();
+
+        // Remove the loader when the page is done loading
+        window.onload = () => {
+            document.body.classList.remove('loading');
+            document.getElementById('loader').classList.add('hide');
+        };
     </script>
     <!-- <script src="js/main.js"></script> -->
 </body>
