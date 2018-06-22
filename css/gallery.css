@@ -25,7 +25,8 @@ main #gallery {
     width: 100%;
 }
 
-main #gallery img {
+main #gallery a {
+    display: inline-block;
     position: relative;
     top: 0;
     width: 31%;
@@ -42,15 +43,19 @@ main #gallery img {
     -o-transition: all .2s;
 }
 
-main #gallery img:hover,
-main #gallery img.hover {
+#gallery img {
+    width: 100%;
+}
+
+main #gallery a:hover,
+main #gallery a.hover {
     cursor: pointer;
     top: -4.3px;
     -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
     box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
 }
 
-/* main #gallery img :hover+.box,
+/* main #gallery a :hover+.box,
 .left-of-hover {
     top: -7px;
     -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
