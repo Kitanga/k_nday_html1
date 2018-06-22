@@ -16,7 +16,7 @@
         }
     </style>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/reservations.css">
 </head>
 
 <body class="loading">
@@ -54,67 +54,25 @@
             </ul>
         </nav>
         <div id="page-title">
-            <h1>Gallery</h1>
+            <h1>Contact Us</h1>
         </div>
     </header>
     <main>
-        <div id="gallery">
-            <a data-lightbox="gallery">
-                <img src="img/1-Check-in-Service.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/2-Lift.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/3-Lift-and-Staircase.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/4-Lobby.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/5-Lobby-and-Reception.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/6-Restaurant-Service.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/7-Mount-Meru.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/8-resting-lions-tanzania.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/1-Check-in-Service.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/2-Lift.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/3-Lift-and-Staircase.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/4-Lobby.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/5-Lobby-and-Reception.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/7-Mount-Meru.jpg" alt="">
-            </a>
-            <a data-lightbox="gallery">
-                <img src="img/3-Lift-and-Staircase.jpg" alt="">
-            </a>
-        </div>
-        <div id="pagination">
-            <a class="caret-contain caret-left disable">
-                <span></span>
-            </a>
-            <div class="page-number">
-                <span>1</span>
-            </div>
-            <a class="caret-contain caret-right disable">
-                <span></span>
-            </a>
+        <!-- <div id="left-panel">
+            <div id="table"></div>
+            <div id="more-info-btn"></div>
+            <div id="more-info"></div>
+        </div> -->
+        <div id="right-panel">
+            <h2>Talk to Us</h2>
+            <form action="action.php" method="POST">
+                <input type="text" placeholder="Full Name*">
+                <input type="text" placeholder="Subject*">
+                <input type="email" placeholder="Email*">
+                <input type="text" placeholder="Tel. Number (with country code)*">
+                <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
+                <div class="submit">Submit</div>
+            </form>
         </div>
     </main>
     <footer>

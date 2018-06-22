@@ -284,4 +284,8 @@ main:after {
 
 footer {
     text-align: center;
+    background-color: rgba(0,0,0,0.92);
+    padding: 14px;
+    color: ivory;
+    width: 100%;
 }
